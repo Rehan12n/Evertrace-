@@ -1,0 +1,14 @@
+{
+  "name": "evertrace-workspace",
+  "version": "1.0.0",
+  "description": "Evertrace — Every memory leaves a trace. Hacktoberfest Hack Day 2026 Track 2.",
+  "type": "module",
+  "scripts": {
+    "start": "node evertrace/server/server.js",
+    "dev": "node --watch evertrace/server/server.js",
+    "test": "node --test evertrace/tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
